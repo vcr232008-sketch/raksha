@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --ivory:#faf7f2; --ink:#1c1917; --gold:#b08d57; --stone:#e7e0d5; }
+body { background: var(--ivory); color: var(--ink); font-family: var(--font-sans), system-ui, sans-serif; }
+.font-serif-display { font-family: var(--font-serif), Georgia, serif; }
+.btn { display:inline-block; padding:.8rem 1.8rem; background:var(--ink); color:var(--ivory); letter-spacing:.15em; font-size:.75rem; text-transform:uppercase; transition:background .2s; }
+.btn:hover { background: var(--gold); }
+.input { width:100%; border:1px solid var(--stone); background:#fff; padding:.7rem .9rem; font-size:.9rem; outline:none; }
+.input:focus { border-color: var(--gold); }
